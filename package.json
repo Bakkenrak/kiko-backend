@@ -35,6 +35,7 @@
   "dependencies": {
     "@aws-cdk/aws-amplify": "^1.98.0",
     "@aws-cdk/aws-appsync": "^1.98.0",
+    "@aws-cdk/aws-autoscaling": "^1.98.0",
     "@aws-cdk/aws-cognito": "^1.98.0",
     "@aws-cdk/aws-dynamodb": "^1.98.0",
     "@aws-cdk/aws-iam": "^1.98.0",
@@ -46,8 +47,10 @@
     "@aws-cdk/aws-sns": "^1.98.0",
     "@aws-cdk/aws-stepfunctions": "^1.98.0",
     "@aws-cdk/aws-stepfunctions-tasks": "^1.98.0",
+    "@aws-cdk/cloud-assembly-schema": "^1.98.0",
     "@aws-cdk/core": "^1.98.0",
     "@aws-cdk/custom-resources": "^1.98.0",
+    "constructs": "^3.3.71",
     "source-map-support": "^0.5.19"
   },
   "simple-git-hooks": {
